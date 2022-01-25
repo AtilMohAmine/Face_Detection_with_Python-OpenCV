@@ -31,7 +31,7 @@ The detection works only on grayscale images. So it is important to convert the 
 ```python
 cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ```
-detectMultiScale function is used to detect the faces. It takes 3 arguments, the input image, scaleFactor and minNeighbours. you can read about it [here]("https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Object_Detection_Face_Detection_Haar_Cascade_Classifiers.php").
+*detectMultiScale* function is used to detect the faces. It takes 3 arguments, the input image, scaleFactor and minNeighbours. you can read about it [here](https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Object_Detection_Face_Detection_Haar_Cascade_Classifiers.php "here").
 
 ```python
 detectMultiScale(gray_scaled_img, scaleFactor=1.2,minNeighbors=5,minSize=(20,20))
