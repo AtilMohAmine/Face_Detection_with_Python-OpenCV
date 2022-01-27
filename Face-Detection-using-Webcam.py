@@ -16,4 +16,8 @@ while True:
 		
 	output = cv2.resize(frame, (960, 540))
 	cv2.imshow('Face detector', output)
-	cv2.waitKey()
+	if cv2.waitKey(30) == 27:
+        	break
+
+webcam.release()
+cv2.destroyAllWindows()
